@@ -1,13 +1,13 @@
-package com.example.simplifiedonlinestore;
+package com.example.apigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimplifiedOnlineStoreApplication {
+public class ApiGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SimplifiedOnlineStoreApplication.class, args);
+        SpringApplication.run(ApiGatewayApplication.class, args);
     }
 
 }

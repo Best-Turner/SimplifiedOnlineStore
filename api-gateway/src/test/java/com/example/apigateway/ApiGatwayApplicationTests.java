@@ -1,10 +1,10 @@
-package com.example.simplifiedonlinestore;
+package com.example.apigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimplifiedOnlineStoreApplicationTests {
+class ApiGatwayApplicationTests {
 
     @Test
     void contextLoads() {

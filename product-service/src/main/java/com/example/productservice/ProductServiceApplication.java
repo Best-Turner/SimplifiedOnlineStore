@@ -1,13 +1,13 @@
-package com.example.simplifiedonlinestore;
+package com.example.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SimplifiedOnlineStoreApplication {
+public class ProductServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SimplifiedOnlineStoreApplication.class, args);
+        SpringApplication.run(ProductServiceApplication.class, args);
     }
 
 }
