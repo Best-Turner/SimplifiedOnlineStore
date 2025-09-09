@@ -14,22 +14,13 @@ spring:
                 http://localhost:8081
               predicates:
                 - Path=/api/products/**
-              filters:
-                - name: RequestRateLimiter
-                  args:
-                    redis-rate-limiter.replenishRate: 10
-                    redis-rate-limiter.burstCapacity: 20
 
             - id: order-service
               uri:
                 http://localhost:8082
               predicates:
                 - Path=/api/orders/**
-              filters:
-                - name: RequestRateLimiter
-                  args:
-                    redis-rate-limiter.replenishRate: 5
-                    redis-rate-limiter.burstCapacity: 10
+
 
 management:
   endpoints:
